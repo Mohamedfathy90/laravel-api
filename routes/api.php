@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
 use App\Models\Category;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/get-main-categories', [CategoryController::class,'index']);
+
+Route::resource('/product',ProductController::class);
+Route::get('/product/search/{name}',[ProductController::class,'search']);
+
