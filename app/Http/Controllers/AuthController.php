@@ -18,7 +18,7 @@ class AuthController extends Controller
         ]);
         $credentials['password']=Hash::make($request->password);
         $user=User::create($credentials);
-        $token=$user->createToken($request->name)->plainTextToken;
+        $token=$user->createAuthToken('auth');
 
         return response([
             'user'=> $user , 
@@ -37,10 +37,12 @@ class AuthController extends Controller
         
         if(Auth::attempt($credentials)){
         $user=User::where('email',$request->email)->first();
-        $token=$user->createToken($user->name)->plainTextToken;
+        $token = $user->createAuthToken('auth',now()->addMinutes(10));
+        $refreshtoken = $user->createRefreshToken('refresh',now()->addMinutes(20));
         return response([
             'user'=> $user, 
-            'token'=>$token
+            'token'=>$token ,
+            'refresh_token' =>$refreshtoken
         ]);
         }
       else{

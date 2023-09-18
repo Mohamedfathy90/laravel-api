@@ -2241,6 +2241,56 @@
             "install-path": "../mockery/mockery"
         },
         {
+            "name": "mohamedgaber-intake40/sanctum-refresh-token",
+            "version": "v2.2",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mohamedgaber-intake40/sanctum-refresh-token.git",
+                "reference": "3fd4de7f5e071f7cfd81c7564549ac20275daced"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mohamedgaber-intake40/sanctum-refresh-token/zipball/3fd4de7f5e071f7cfd81c7564549ac20275daced",
+                "reference": "3fd4de7f5e071f7cfd81c7564549ac20275daced",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/sanctum": "^3.0"
+            },
+            "time": "2022-10-24T15:01:13+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MohamedGaber\\SanctumRefreshToken\\SanctumRefreshTokenServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MohamedGaber\\SanctumRefreshToken\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Gaber",
+                    "email": "mohamed.gaberiti40@gmail.com"
+                }
+            ],
+            "description": "add refresh token feature to laravel sanctum official package",
+            "support": {
+                "issues": "https://github.com/mohamedgaber-intake40/sanctum-refresh-token/issues",
+                "source": "https://github.com/mohamedgaber-intake40/sanctum-refresh-token/tree/v2.2"
+            },
+            "install-path": "../mohamedgaber-intake40/sanctum-refresh-token"
+        },
+        {
             "name": "monolog/monolog",
             "version": "3.4.0",
             "version_normalized": "3.4.0.0",

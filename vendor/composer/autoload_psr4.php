@@ -57,6 +57,7 @@ return array(
     'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src/PhpOption'),
     'NunoMaduro\\Collision\\' => array($vendorDir . '/nunomaduro/collision/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'MohamedGaber\\SanctumRefreshToken\\' => array($vendorDir . '/mohamedgaber-intake40/sanctum-refresh-token/src'),
     'Mockery\\' => array($vendorDir . '/mockery/mockery/src/Mockery'),
     'League\\MimeTypeDetection\\' => array($vendorDir . '/league/mime-type-detection/src'),
     'League\\Flysystem\\Local\\' => array($vendorDir . '/league/flysystem-local'),

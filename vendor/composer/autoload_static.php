@@ -113,6 +113,7 @@ class ComposerStaticInitcfc7857471456de2825165f5c3dade91
         'M' => 
         array (
             'Monolog\\' => 8,
+            'MohamedGaber\\SanctumRefreshToken\\' => 33,
             'Mockery\\' => 8,
         ),
         'L' => 
@@ -380,6 +381,10 @@ class ComposerStaticInitcfc7857471456de2825165f5c3dade91
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'MohamedGaber\\SanctumRefreshToken\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mohamedgaber-intake40/sanctum-refresh-token/src',
+        ),
         'Mockery\\' => 
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/src/Mockery',
@@ -514,6 +519,7 @@ class ComposerStaticInitcfc7857471456de2825165f5c3dade91
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
         'App\\Http\\Controllers\\CategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/CategoryController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
@@ -3218,6 +3224,8 @@ class ComposerStaticInitcfc7857471456de2825165f5c3dade91
         'Mockery\\Undefined' => __DIR__ . '/..' . '/mockery/mockery/src/Mockery/Undefined.php',
         'Mockery\\VerificationDirector' => __DIR__ . '/..' . '/mockery/mockery/src/Mockery/VerificationDirector.php',
         'Mockery\\VerificationExpectation' => __DIR__ . '/..' . '/mockery/mockery/src/Mockery/VerificationExpectation.php',
+        'MohamedGaber\\SanctumRefreshToken\\SanctumRefreshTokenServiceProvider' => __DIR__ . '/..' . '/mohamedgaber-intake40/sanctum-refresh-token/src/SanctumRefreshTokenServiceProvider.php',
+        'MohamedGaber\\SanctumRefreshToken\\Traits\\HasApiTokens' => __DIR__ . '/..' . '/mohamedgaber-intake40/sanctum-refresh-token/src/Traits/HasApiTokens.php',
         'Monolog\\Attribute\\AsMonologProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Attribute/AsMonologProcessor.php',
         'Monolog\\DateTimeImmutable' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',
         'Monolog\\ErrorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ErrorHandler.php',

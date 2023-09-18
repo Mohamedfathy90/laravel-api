@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '7ab7a58333e05e688879d400e499f552e86c06ed',
+        'reference' => '7e8e25667c06a5898da9d54d81dee7e0e11294fd',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -373,7 +373,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '7ab7a58333e05e688879d400e499f552e86c06ed',
+            'reference' => '7e8e25667c06a5898da9d54d81dee7e0e11294fd',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -477,6 +477,15 @@
             'install_path' => __DIR__ . '/../mockery/mockery',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'mohamedgaber-intake40/sanctum-refresh-token' => array(
+            'pretty_version' => 'v2.2',
+            'version' => '2.2.0.0',
+            'reference' => '3fd4de7f5e071f7cfd81c7564549ac20275daced',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mohamedgaber-intake40/sanctum-refresh-token',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'monolog/monolog' => array(
             'pretty_version' => '3.4.0',

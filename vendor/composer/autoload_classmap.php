@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\AuthController' => $baseDir . '/app/Http/Controllers/AuthController.php',
     'App\\Http\\Controllers\\CategoryController' => $baseDir . '/app/Http/Controllers/CategoryController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\ProductController' => $baseDir . '/app/Http/Controllers/ProductController.php',
@@ -2712,6 +2713,8 @@ return array(
     'Mockery\\Undefined' => $vendorDir . '/mockery/mockery/src/Mockery/Undefined.php',
     'Mockery\\VerificationDirector' => $vendorDir . '/mockery/mockery/src/Mockery/VerificationDirector.php',
     'Mockery\\VerificationExpectation' => $vendorDir . '/mockery/mockery/src/Mockery/VerificationExpectation.php',
+    'MohamedGaber\\SanctumRefreshToken\\SanctumRefreshTokenServiceProvider' => $vendorDir . '/mohamedgaber-intake40/sanctum-refresh-token/src/SanctumRefreshTokenServiceProvider.php',
+    'MohamedGaber\\SanctumRefreshToken\\Traits\\HasApiTokens' => $vendorDir . '/mohamedgaber-intake40/sanctum-refresh-token/src/Traits/HasApiTokens.php',
     'Monolog\\Attribute\\AsMonologProcessor' => $vendorDir . '/monolog/monolog/src/Monolog/Attribute/AsMonologProcessor.php',
     'Monolog\\DateTimeImmutable' => $vendorDir . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',
     'Monolog\\ErrorHandler' => $vendorDir . '/monolog/monolog/src/Monolog/ErrorHandler.php',
